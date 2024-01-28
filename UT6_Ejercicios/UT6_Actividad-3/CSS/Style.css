@@ -1,0 +1,93 @@
+/*Modifica la etiqueta con la clase calcu cambiando el fondo, los margenes, el display, el padding y los bordes*/
+.calcu{
+    background-color: rgb(202, 202, 202);
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 1% ;
+}
+/*Modifica la etiqueta con la clase resultado cambiando el fondo, los margenes, el display, el width y los bordes*/
+.resultado{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 1%;
+    width: 95%;
+}
+/*Modifica la/s etiqueta/s con la clase teclas cambiando el display, el padding, la distancia entre filas y columnas y los bordes*/
+.teclas{
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 5%;
+    text-align: right;
+}
+/*Modifica la etiqueta con la clase e12 cambiando el color del fondo, el radio del borde, la alineacion del texto el width, 
+el height, el padding y la posicion que tendra en una disposicion grid*/
+.e12{
+    background-color: rgb(112, 247, 112);
+    grid-row: 3/6;
+    grid-column: 4/4;
+    border-radius: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 120%;
+    height: 100%;
+
+/*Modifica la etiqueta con la clase e1 cambiando el color del fondo, el radio del borde, la alineacion del texto el width, 
+el height y el padding*/
+
+}
+.e1{
+    background-color: red;
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    width: 120%;
+    height: 120%;
+
+}
+/*Modifica las etiquetas con las clases e2, e3, e4 y e8 cambiando el color del fondo, el radio del borde, la alineacion del texto el width, 
+el height y el padding*/
+.e2, .e3, .e4, .e8{
+    background-color: rgb(6, 122, 255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15%;
+    width: 120%;
+    height: 120%;
+
+}
+/*Modifica las etiquetas con las clases e5, e6, e7, e9, e10, e11, 13, e14, e15, e16 y e17 cambiando el color del fondo, 
+el radio del borde, la alineacion del texto el width, el height y el padding*/
+.e5, .e6, .e7, .e9, .e10, .e11, .e13, .e14, .e15, .e17, .e16{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15%;
+    width: 120%;
+    height: 120%;
+
+}
+/*Modifica las etiquetas con las clases e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14, e15, e16 y e17
+para que al pasar el raton sobre alguna de ellas el fondo se cambie al color seleccionado*/
+.e1:hover, .e2:hover, .e3:hover, .e4:hover, .e5:hover, .e6:hover, .e7:hover, .e8:hover, .e9:hover, .e10:hover, .e11:hover, .e12:hover, .e13:hover, .e14:hover, .e15:hover, .e16:hover, .e17:hover{
+    background-color: gray;
+}
+

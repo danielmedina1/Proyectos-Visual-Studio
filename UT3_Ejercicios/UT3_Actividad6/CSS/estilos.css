@@ -1,0 +1,50 @@
+    /*Fondo del body*/
+body {
+    background-image: url("../Images/fondo.jpg");
+}
+   /*Todos los elementos de la página con la clase center*/
+.center{
+    align-items: center;
+    text-align: center;
+}
+   /*Todos los elementos de la página con la clase left*/
+ .right{
+    text-align: right;
+}
+   /*Fuentes añadidas*/
+ @font-face {
+    font-family: 'CandyCane';
+    src: url(../Fonts/CandyCane.ttf);
+} 
+@font-face {
+    font-family: 'CandyCanematch';
+    src: url(../Fonts/candycanematch.ttf);
+} 
+   /*Todos los elementos h1*/
+h1{
+    font-family: CandyCane;
+    font-size: 50pt ;
+    color: #369;
+}
+   /*Todos los elementos p*/
+p {
+    font-family: Kiddy;
+    font-size: 10pt ;
+    color: #369;
+}
+    /*Todos los elementos div*/
+div{
+        background-color: #F7D1D0;
+        width: auto;
+        height: auto;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+} 
+    /*Todas las imagenes*/
+img{
+        margin-top: 20px;
+        height: 450px;
+        width: 950px;
+}

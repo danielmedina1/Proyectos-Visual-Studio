@@ -1,0 +1,66 @@
+/*Fuente añadida*/
+@font-face {
+    font-family: lcd;
+    src: url(../Fonts/lcd.TTF);
+}
+
+
+/*Afecta al cuerpo de la página*/
+body {
+    background-color: #333333;
+}
+
+/*Afecta a las etiquetas con la clase total*/
+
+.total {
+    background-image: url(../Images/fondo1.jpg);
+    background-color: white;
+    border: 2px solid #6F7B68;
+    margin: 30px auto;
+    padding-bottom: 10px;
+    width: 1000px;
+    border-radius: 5px;
+}
+
+
+/*Afecta a las etiquetas con la clase titulo*/
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    color: #C1E943;
+    font-family: lcd;
+    background-color: #333333;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid #676F61;
+    border-left: 2px solid #676F61;
+    padding: 7px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*Afecta a las etiquetas con las clases fila1, fila2 y fila3*/
+
+/*Afecta a todas las imagenes de la página*/
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    position: relative;
+    background-color: #333;
+    display: inline-block;
+    width: 275px;
+    height: 155px;
+    padding: 10px 10px 23px 10px;
+    margin: 15px 0px 0px 10px;
+    border: 2px solid #6F7B68;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    vertical-align: top;
+}
+
+/*Afecta a todas las etiquetas que posean esas etiquetas y modifica sus posiciones*/
+
+/*Afecta a todas las etiquetas que posean esas etiquetas y modifica sus posiciones*/

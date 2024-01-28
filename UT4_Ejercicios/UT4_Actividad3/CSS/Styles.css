@@ -1,0 +1,122 @@
+/*Fondo del cuerpo*/
+body{
+    background-image: url(../Images/img01.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Para la etiqueta nav*/
+nav{
+    background-image: url(../Images/img02.jpg);
+    padding: 0.1%;
+    width: 100%;
+    
+}
+.navi:hover{
+    color: black;
+    text-decoration: underline;
+}
+/*Para la lista desordenada*/
+ul{
+    list-style: none;
+    display: flex ;
+    justify-content: center;
+    flex-direction: row ;
+    margin-right:9% ;
+}
+li{
+    margin-left: 5%;
+
+
+}
+.buscaor{
+    border: none;
+    border-bottom: orange 3px solid;
+    height: 120%;
+}
+/*Para los enlaces*/
+.navi{
+    text-decoration: none;
+    color: grey;
+}
+.contenedor1{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 25%;
+    align-items: flex-start;
+}
+.pderecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.pizquierda{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+/*Para todos los parrafos de la página*/
+p{
+    color: grey;
+}
+/*Para todos los h2*/
+h2{
+    color: rgb(94, 92, 92);
+    background-image: url(../Images/img03.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+}
+/*Para todas las etiquetas con la clase cate*/
+.cate{
+    text-decoration: none;
+    border-bottom: solid 1px;
+}
+.coment{
+    text-align: right;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    font-size: 80%;
+}
+
+.acoment{
+    text-decoration: none;
+    color: red;
+}
+.acoment:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+}
+
+.dif{
+    display: inline-block;
+    width: 10%;
+    margin-left: 20%;
+
+}
+
+h3{
+    color: white;
+    border-bottom: solid 1px;
+}
+
+.enla{
+    text-decoration: none;
+    color: gray;
+}
+.enla2{
+        font-size: 60%;
+    color: rgba(224, 224, 224, 0.808);
+}
+
+.enla2:hover{
+    color: rgb(252, 252, 252);
+}
+
+.enla:hover{
+    text-decoration: underline;
+    color: rgb(77, 128, 0);
+}

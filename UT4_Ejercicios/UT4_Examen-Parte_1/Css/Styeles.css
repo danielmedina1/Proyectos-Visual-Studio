@@ -1,0 +1,160 @@
+/*Modifica el logo*/
+.logoribera{
+    width: 12%;
+}
+/*Modifica la lista del navegador*/
+.listu{
+   list-style: none; 
+   display: flex;
+   justify-content: flex-start;
+   position: relative;
+   bottom: 75px;
+   left: 150px;
+}
+.navili{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 120%;
+    color: #004080;
+}
+.navili:hover{
+    color: #FF9500;
+}
+.navi{
+    border-bottom: solid 2px;
+}
+
+/*Lateral derecho e izquierdo*/
+.contenedor{
+    display: flex;
+    align-items: flex-start;
+    margin: 1%;
+}
+.main{
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.lateral{
+    display: inline-block;
+    width: 34%;
+    max-width: 100%;
+}
+h1{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buscartxt{
+    border: none;
+    border-bottom: 4px #004080 solid;
+}
+.becasinf{
+    width: 100%;
+}
+.becasinf:hover{
+    filter: drop-shadow(10px 10px 10px #000000);
+
+}
+.moleculas3d{
+    width: 100%;
+}
+.moleculas3d:hover{
+    filter: drop-shadow(10px 10px 10px #000000);
+}
+
+/*Footer*/
+footer{
+    border-top: solid 5px  #FF9500;
+    display: flex;
+}
+.logos{
+    width: 70%;
+}
+.logos:hover{
+    filter: drop-shadow(10px 10px 10px #000000);
+
+}
+.minombre{
+    margin-left: 50%;
+    color: gray;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Parte 2*/
+.contenedor1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto auto auto;
+    grid-template-areas: 
+        "item1 item2 item3"
+        "item1 item4 item4"
+        "item5 item5 item5"
+        "item6 item6 item6"
+    
+    ;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.item1{
+    background-color: #FF9500;
+    grid-row: 3/1;
+    grid-column: 2/1;
+    padding-top: 30%;
+}
+.item2{
+    background-color: #000000;
+    padding-top: 27%;
+    padding-bottom: 27%;
+}
+.item3{
+    background-color: #FF9500;
+    padding-top: 27%;
+    padding-bottom: 27%;
+}
+.item4{
+    background-color: #004080;
+    grid-column: 2/4;
+    padding-top: 3%;
+}
+.item5{
+    background-image: url(../Images/main/ceramica-murales.jpg);
+    grid-column: 4/1;
+    padding: 7%;
+}
+.item6{
+    background-color: #000000;
+    grid-column: 4/1;
+    padding: 3%;
+
+}
+
+.txti2, .txti3, .txti4, .txti6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txti1, .txti5{
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.txti1:hover{
+    color: #004080;
+}
+
+.txti5:hover{
+    color: #FF9500;
+}
+
+.imgi2:hover, .imgi3:hover, .imgi4:hover, .imgi6:hover{
+    filter: drop-shadow(10px 10px 10px #ffffff);
+}
+
+.txti1{
+    margin: 0 auto;
+}

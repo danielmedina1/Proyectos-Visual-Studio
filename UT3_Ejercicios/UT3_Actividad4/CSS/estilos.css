@@ -1,0 +1,95 @@
+/*Fondo*/
+body{
+background-image: url("../Images/fondoverdelinea.png");
+background-repeat: repeat;
+}
+/*Cabecera*/
+header, nav{
+    align-items: center;
+    text-align: center;
+}
+/*Nav*/
+nav{
+    margin-top: 2%;
+}
+/*Para las etiquetas que tengan*/
+.titulo{
+    font-size: 150%;
+    text-align: center;
+}
+/*Los botones para el nav*/
+.boton{
+    background-image: url(../Images/botonverde.png);
+    background-repeat: no-repeat;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    background-size : 100% 100%;
+    padding: 1% 5% 1% 4% ;
+    color: darkgreen;
+    text-align: center;
+    text-align-last: center;
+}
+/*Para el lateral izquierdo*/
+.laterali{
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+/*para el lateral derecho*/
+.laterald{
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+    margin-top: -2%;
+}
+/*Para las 3 divisiones con logos*/
+.partes{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 0.7%;
+}
+/*Para los logos*/
+.logos{
+    margin-left: 30%;
+}
+/*Para los botones verde claro */
+.boton2{
+    background: url(../Images/botonverdeclaro.png);
+    background-repeat: no-repeat;
+    padding: 10% 15% 10% 15%;
+    background-position: 50%;
+    color: #013300;
+    text-align: center;
+}
+/*Para el aside*/
+aside {
+    display: inline-block;
+    width: 30%;
+    height: 20%;
+}
+/*Para los botones verde claro largos*/
+.boton3{
+    background: url(../Images/botonverdeclarolargo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 50%;
+    padding: 10% 20% 10% 20%;
+    color: #013300;
+}
+/*Para el pie de página*/
+footer {
+    background-color: #B3CD86;
+    text-align: right;
+    margin-left: 15%; 
+    margin-right: 15%;
+    color: rgb(13, 36, 13);
+}
+/*Para todos los elementos de la clase imags*/
+.imags{
+    margin-top: -10%;
+    margin-left: 10%;
+    width: 80%;
+}

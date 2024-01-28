@@ -1,0 +1,180 @@
+/*Modifica los margenes y el fondo del body*/
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: gainsboro;
+}
+/*Modifica a la clase principal*/
+.principal{
+    background-color: white;
+}
+/*Modifica el nav*/
+nav{
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding: 1%;
+}
+
+/*Modifica las listas desordenadas*/
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: nowrap;
+    margin-right: 5%;
+}
+/*Modifica los items de las listas*/
+li{
+    margin-right: 10%;
+}
+/*Modifica los enlaces del nav*/
+.menui{
+    text-decoration: none;
+    color: gray;
+}
+/*Modifica los enlaces del nav al pasar sobre ellos*/
+.menui:hover{
+    color: rgb(228, 228, 228);
+}
+/*Modifica el logo del nav*/
+.logonav{
+    width: 40%;
+    margin-left: 5%;
+}
+/*Modifica la estructura de las siguentes clases*/
+.reloj1{
+    display: inline-block;
+    width: 25%;
+    margin-left: 2%;
+}
+.reloj2{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+.reloj3{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+.reloj4{
+    display: inline-block;
+    width: 25%;
+    margin-left: 2%;
+}
+.reloj5{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+.reloj6{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+.reloj7{
+    display: inline-block;
+    width: 25%;
+    margin-left: 2%;
+}
+.reloj8{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+.reloj9{
+    display: inline-block;
+    width: 25%;
+    margin-left: 8%;
+}
+/*Modifica las imagenes con las siguientes clases*/
+.imgreloj1, .imgreloj2, .imgreloj3, .imgreloj4, .imgreloj5, .imgreloj6, .imgreloj7, .imgreloj8, .imgreloj9{
+    width: 120%;
+}
+/*Modifica las imagenes con las siguientes clases al pasar sobre ellas el raton*/
+.imgreloj1:hover, .imgreloj2:hover, .imgreloj3:hover, .imgreloj4:hover, .imgreloj5:hover, .imgreloj6:hover, .imgreloj7:hover, .imgreloj8:hover, .imgreloj9:hover{
+    filter: grayscale(100%);
+}
+/*Modifica todos los h1 de la pagina*/
+h1{
+    text-align: center;
+    color: gray;
+}
+/*Modifica el footer de la pagina*/
+footer{
+    background-color:#867154 ;
+    text-align: center;
+    padding: 10%;
+}
+/*Modifica el logo del footer*/
+.logofooter{
+    width: 10%;
+}
+/*Modifica la letra del footer*/
+.footerp{
+    color: rgb(189, 185, 185);
+}
+/*Ajusta la pagina dependidendo del tamaño que se le de*/
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-bottom: 1px solid;
+        padding: 1%;
+    }
+    li{
+        margin-right: 5%;
+    }
+    .reloj1{
+        display: inline-block;
+        width: 40%;
+        margin-left: 2%;
+    }
+    .reloj2{
+        display: inline-block;
+        width: 40%;
+        margin-left: 8%;
+    }
+    .reloj3{
+        display: inline-block;
+        width: 40%;
+        margin-left: 2%;
+    }
+    .reloj4{
+        display: inline-block;
+        width: 40%;
+        margin-left: 8%;
+    }
+    .reloj5{
+        display: inline-block;
+        width: 40%;
+        margin-left: 2%;
+    }
+    .reloj6{
+        display: inline-block;
+        width: 40%;
+        margin-left: 8%;
+    }
+    .reloj7{
+        display: inline-block;
+        width: 40%;
+        margin-left: 2%;
+    }
+    .reloj8{
+        display: inline-block;
+        width: 40%;
+        margin-left: 8%;
+    }
+    .reloj9{
+        display: inline-block;
+        width: 40%;
+        margin-left: 8%;
+    
+   } 
+   
+}

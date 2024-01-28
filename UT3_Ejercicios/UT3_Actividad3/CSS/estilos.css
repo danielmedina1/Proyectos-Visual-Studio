@@ -1,0 +1,31 @@
+/*Para los bordes de las tablas*/
+table, tr, th, td {border: solid 1px #000;}
+
+/*Titulos h1*/
+h1{
+    color: #008080;
+}
+/*Titulos h2, Caption y todas las etiquetas con azule */
+h2, caption, .azule{
+    color: #2212FF;
+}
+/*Todas las etiquetas que tengan .rillo*/
+.rillo{
+    color:#ffbb00 ;
+}
+/*Todos los td*/
+td{
+    color: green;
+}
+/*Todas las etiquetas con .rojed*/
+.rojed{
+    color: red;
+}
+/*Todas las etiquetas con .purpado*/
+.purpado{
+    color: purple;
+}
+/*Todas las etiquetas con .oliv*/
+.oliv{
+    color: olive;
+}

@@ -1,0 +1,206 @@
+/*Para elementos generales*/
+ul {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+} 
+/*Patrocinadores*/
+.imgpatr1 {
+    width: 200px;
+    margin: 5%;
+    filter: grayscale(1);
+}
+.imgpatr2 {
+    width: 200px;
+    margin: 5%;
+    filter: grayscale(1);
+    position: relative;
+    bottom: 15%;
+}
+.patr { 
+    margin-left: 13%;
+}
+/*Primer nav de la página*/
+.itlist1{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.lista1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav1 {
+    background-color: black; 
+
+}
+.enla1 {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/*Segundo nav de la página*/
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 10%;
+    padding: 1%;
+    
+}
+.lista2 {
+    position: relative;
+    left: 65%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+.li2 {
+    text-decoration: none;
+    color: gray;
+}
+.logo1 {
+    width: 40%;
+}
+.itlist2{
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+/*Primer div "Acerca de"*/
+.acd {
+    background-image: url(../images/fondo.png);
+    padding: 1%;
+    background-size: 100%; 
+}
+.acd2 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.prr1 {
+    color: rgb(58, 58, 231);
+    font-size: 170%;
+}
+.prr2 {
+    color:rgb(255, 136, 0) ;
+    font-size: 300%;
+}
+.prr3 {
+    border:solid 7px white;
+    border-radius: 5%;
+    margin-right: 30%;
+}
+.prrtres {
+    color: rgb(85, 85, 85);
+}
+.prr4 {
+    color: rgb(85, 85, 85);
+    font-size: 170%;
+}
+.prr5 {
+    color: rgb(85, 85, 85);
+}
+.prr6 {
+    color: rgb(85, 85, 85);
+}
+
+/*Programa Principal*/
+.secciones {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.divenlace {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: rgba(128, 128, 128, 0.363);
+    padding: 3% 5% 3% 5%; 
+}
+.proginc {
+    text-align: center;
+    background-image: url(../images/fill-bg.png);
+    background-color: rgb(34, 33, 33);
+    background-repeat: repeat;
+    padding: 5%;
+}
+#progprinc {
+    color: white;
+}
+.titulodivs {
+    color: brown;
+}
+.masinf{
+    color: white;
+}
+/*Patrocinadores*/
+.patr{
+    display: flex;
+    flex-direction: row;
+}
+.cinad {
+    background-color:  rgb(34, 33, 33);
+}
+.dendiv {
+    color: white;
+}
+.part {
+    color: white;
+}
+/*Tomaran la palabra*/
+.press2 {
+    display: grid;
+    grid-template-areas:
+        "pressecc pressecc"
+        "pressecc pressecc"
+    ;
+    gap: 25px;
+}
+.pressecc {
+    display: flex;
+    flex-direction: row;
+}
+.pressimg {
+    width: 120px;
+    height: 120px;
+}
+.pressinfo {
+    margin-left: 2%;
+}
+.pressprr {
+    color: orange;
+}
+/*Footer*/
+.piedepag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+}
+.pieprr {
+    position: relative;
+    top: 50px;
+    margin-left: 5%;
+}
+.imgfooter {
+    width: 10%;
+}
+/*Cuenta atras*/
+.cont {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 1px;
+    background-color: black; 
+}
